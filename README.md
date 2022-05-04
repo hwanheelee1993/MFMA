@@ -1,7 +1,18 @@
 # MFMA
 
-## Instructions
 
+## Usage of pre-trained factual consistency checking model
+
+MFMA is a pre-trained factual consistency checking model(trained as a binary classifier) using the augmented negative samples in the paper.
+You only need huggingface transformers library to load the pre-trained model.
+
+'''
+from transformers import AutoModelforSequenceClassification
+model = AutoModelforSequenceClassification("mfma")
+
+'''
+
+## Training MFMA Instructions
 
 <h2> Usage </h2>
 
