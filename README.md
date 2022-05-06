@@ -1,9 +1,12 @@
 # MFMA
 
+This repository provides a factual consistency checking model from our NAACL-Findings 2022 paper [Masked Summarization to Generate Factually Inconsistent Summaries for Improved Factual Consistency Checking](https://arxiv.org/abs/2205.02035).
+
 
 ## 1. Usage of pre-trained factual consistency checking model
 
 MFMA is a pre-trained factual consistency checking model(trained as a binary classifier) for abstractive summaries trained with the augmented negative samples using Mask-and-Fill with Article(MFMA).
+
 You only need huggingface transformers library to load the pre-trained model.
 
 ```
