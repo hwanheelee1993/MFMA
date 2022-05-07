@@ -11,7 +11,7 @@ You only need huggingface transformers library to load the pre-trained model.
 
 ```
 from transformers import AutoModelforSequenceClassification
-model = AutoModelforSequenceClassification("mfma")
+model = AutoModelforSequenceClassification("henry931007/mfma")
 ```
 
 ## 2. Training MFMA Instructions
