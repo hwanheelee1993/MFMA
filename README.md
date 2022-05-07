@@ -49,7 +49,7 @@ python infer_fb.py --mask_ratio1 $MASK_ARTICLE \
 python train_metric.py --datadir $DATA_PATH \
 ```
 
-
+## References
 ```
 @inproceedings{lee2022mfma,
       title={Masked Summarization to Generate Factually Inconsistent Summaries for Improved Factual Consistency Checking}, 
